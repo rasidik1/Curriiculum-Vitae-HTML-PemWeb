@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pembuatan cv</title>
+</head>
+<body>
+    <h1>Formulir Pengisian Curricullum Vitae</h1>
+    <br>
+    <h2 class="tabel1">Data Singkat Pengisi Curricullum Vitae</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nama Lengkap</th>
+                <th>Tempat Tanggal Lahir</th>
+                <th>Jenis Kelamin</th>
+                <th>Agama</th>
+                <th>Alamat</th>
+                <th>Nomor HP/WA </th>
+                <th>Hobi</th>
+                <th>Penidikan Terakhir</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rahmad Sidik</td>
+                <td>Sidomulyo, 11 April 2001</td>
+                <td>Laki-Laki</td>
+                <td>Islam</td>
+                <td>Desa Sidomulyo, Kec. Sidomulyo, Kab. Lampung Selatan</td>
+                <td>089528596517</td>
+                <td>Elektronik</td>
+                <td>SMA</td>
+                <td><img src="Rahmad Sidik Ijazah merah.jpg" height="100px" width="80px" ></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <form method="POST" action="procces.php" enctype="multipart/form-data">
+        <fieldset>
+            <legend><b>Formulir Data CV</b></legend>
+            <p>
+                <label>Nama Lengkap</label>
+                <input type="text" name="nama_lengkap"/>
+            </p>
+            <p>
+                <label>Tempat Tanggal Lahir</label>
+                <input type="text" name="tempat_tanggal_lahir"/>
+            </p>
+            <p>
+                <label>Jenis Kelamin</label>
+                <select name="jenis_kelamin" id="jenis_kelamin">
+                    <option value="L" >Laki-Laki</option>
+                    <option value="P" >Perempuan</option>
+                </select> 
+            </p>
+            <p>
+                <label>Agama</label>
+                <select name="Agama" id="Agama">
+                    <option>Islam</option>
+                    <option>Kristen</option>
+                    <option>Protestan</option>
+                    <option>Budha</option>
+                    <option>Hindu</option>
+                </select>
+            </p>
+            <p>
+                <label>Alamat Lengkap</label>
+                <input type="text" placeholder="Masukkan Alamat Anda" name="Alamat"/>
+            </p>
+            <p>
+                <label >Nomor HP/WA</label>
+                <input type="text" name="nomor"/>
+            </p>
+            <p>
+                <label >Hobi</label>
+                <input type="text" name="hobi"/>
+            </p>
+            <p>
+                <label >Pendidikan Terakhir</label>
+                <select name="pendidikan_terakhir" id="pt">
+                    <option>SD</option>
+                    <option>SMP</option>
+                    <option>SMA</option>
+                    <option>S1</option>
+                    <option>S2</option>
+                    <option>S3</option>
+                </select>
+            <p>
+                <label>Upload Foto Kamu</label>
+                <input type="file" name="Foto" />
+            </p>
+            </p>
+            <p> <input type="submit"></p>
+            
+
+        </fieldset>
+    </form>
+  
+</body>
+<style>
+    table{
+        width: auto;
+        border: solid 1pt black;
+        border-collapse: collapse;
+        
+    }
+    td{
+        border: solid 1pt black;
+        padding: 5pt;
+        background: cornsilk;
+
+    }
+    th{
+        border: black solid 1.5pt;
+        padding: 5pt;
+        background: burlywood;
+    }
+    h1{
+        text-align: center;
+    }
+    body{
+        background-image: url(bgcv2.jpg);
+    }
+    .tabel1{
+        text-transform: uppercase;
+    }
+</style>
+</html>
