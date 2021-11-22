@@ -1,0 +1,176 @@
+.container {
+  width: 100%;
+  margin: 0 50%;
+}
+h2 {
+  background-color: #53bd84;
+  padding: 30px 35px;
+  margin: -10px -50px;
+  text-align: center;
+  color: #fff;
+}
+
+span {
+  display: block;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.success {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+b {
+  color: green;
+}
+
+hr {
+  margin: 10px -50px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin-bottom: 25px;
+}
+
+div.main {
+  width: 306px;
+  padding: 10px 50px 30px;
+  border: 2px solid gray;
+  font-family: raleway;
+  float: left;
+  margin-top: 15px;
+}
+
+input[type="text"] {
+  width: 96%;
+  height: 25px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  color: #53bd84;
+  font-size: 16px;
+}
+
+input[type="radio"] {
+  margin: 10px 10px 0 10px;
+}
+
+label {
+  color: #53bd84;
+  text-shadow: 0 1px 0 #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#saran {
+  width: 96%;
+  height: 90px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  color: #53bd84;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  font-size: 16px;
+  background: linear-gradient(#53bd84 5%, #fff 100%);
+  color: #4e4d4b;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px 0;
+  outline: none;
+}
+
+* {
+  font-size: 25px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+aside,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  margin-left: 10px;
+}
+nav {
+  background-color: #ffb319;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+main {
+  background-color: #b8dfd8;
+  width: 65%;
+  align-content: center;
+  justify-content: center;
+  text-align: left;
+}
+aside {
+  font-size: 10px;
+  background-color: #e8f6ef;
+  width: 35%;
+  height: 100%;
+}
+footer {
+  background-color: #ffe194;
+  width: 100%;
+  height: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+  display: inline;
+}
+li {
+  display: inline;
+  width: 60px;
+  padding: 10px;
+}
+li a {
+  color: white;
+  text-align: center;
+  padding: 6.5px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #4caf50;
+}
+.active {
+  background-color: #4caf50;
+  height: 40px;
+  width: 100%;
+}
+.judul_header {
+  font-size: 60px;
+  padding-left: 50px;
+}
+.biodata {
+  border: 1;
+  font-size: 1pt;
+  font-style: normal;
+  font-family: Helvetica, sans-serif;
+  padding: 50pt;
+}
+.fotopropil {
+  padding-left: 20px;
+}
